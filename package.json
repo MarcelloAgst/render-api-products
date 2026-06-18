@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "apirickandmorty",
   "version": "1.0.0",
   "main": "index.js",
@@ -19,4 +20,23 @@
     "web": "expo start --web"
   },
   "private": true
+=======
+  "name": "products-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+>>>>>>> c137601ad26cbc7f5a2d037c1b251aa04b9afd7d
 }
